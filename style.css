@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Keskendab teksti */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Keskendab päisesisu */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* Muudab navigeerimise horisontaalseks */
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px; /* Määrab maksimaalse laiuse */
+    margin: 0 auto;   /* Keskendab sektsiooni */
+}
+
+.projekt {
+    margin-bottom: 20px;
+    text-align: left; /* Hoidke projektide tekst vasakul */
+}
+
+#kontaktivorm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto; /* Keskendab vormi */
+    text-align: left; /* Vormielemendid jäävad vasakule */
+}
+
+#kontaktivorm label {
+    margin-top: 10px;
+}
+
+#kontaktivorm input, #kontaktivorm textarea {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#kontaktivorm button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#vastus {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

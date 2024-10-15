@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minu Portfoolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Minu Nimi</h1>
+    <nav>
+        <ul>
+            <li><a href="#avaleht">Avaleht</a></li>
+            <li><a href="#minust">Minust</a></li>
+            <li><a href="#projektid">Projektid</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="avaleht">
+    <h2>Tere tulemast minu portfoolio lehele!</h2>
+    <p>Siin saad tutvuda minu tööde ja oskustega.</p>
+</section>
+
+<section id="minust">
+    <h2>Minust</h2>
+    <p>Kirjuta siia lühike tutvustus endast, oma taustast ja huvidest.</p>
+</section>
+
+<section id="projektid">
+    <h2>Minu Projektid</h2>
+    <div class="projekt">
+        <h3>Projekti Nimi 1</h3>
+        <p>Kirjeldus projektist.</p>
+    </div>
+    <div class="projekt">
+        <h3>Projekti Nimi 2</h3>
+        <p>Kirjeldus projektist.</p>
+    </div>
+    <!-- Lisa siia rohkem projekte -->
+</section>
+
+<section id="kontakt">
+    <h2>Võta minuga ühendust</h2>
+    <form id="kontaktivorm">
+        <label for="nimi">Nimi:</label>
+        <input type="text" id="nimi" name="nimi" required>
+
+        <label for="email">E-post:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="sonum">Sõnum:</label>
+        <textarea id="sonum" name="sonum" required></textarea>
+
+        <button type="submit">Saada</button>
+    </form>
+    <div id="vastus"></div>
+</section>
+
+<footer>
+    <p>&copy; 2023 Minu Nimi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
